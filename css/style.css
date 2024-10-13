@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;  
+    background-image: url("../img/background.jpeg");  
+    background-size: cover;
+}
+.container{
+    width: 500px;
+    height: 100%;
+    margin-top: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.links{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-sign-in{
+    margin-top: 20px;
+    background: linear-gradient(to right, rgba(195, 117, 14, 0.5), rgba(233, 57, 57, 0.5));
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+.btn-sign-in:active{
+    background: linear-gradient(to right, rgb(195, 117, 14), rgb(233, 57, 57));
+}
+.btn-sign-in:hover{
+    background: linear-gradient(to right, rgba(195, 117, 14, 0.7), rgba(233, 57, 57, 0.7));
+}
+input{
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    background-color: rgba(195, 117, 14, 0.1);
+    color: #fff;
+    font-size: 19px;
+}
+.links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+.basic-page{
+    color: rgb(255, 255, 255) !important;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+label{
+    color: #fff;
+}
